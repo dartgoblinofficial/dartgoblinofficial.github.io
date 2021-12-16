@@ -1,441 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/logo-icon.png" type="image/x-icon">
 
-  <title>Gabriel Ghiur Resume</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Dart Goblin</title>
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- slider stylesheet -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" /> -->
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: iPortfolio - v3.3.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- font awesome style -->
+  <!-- <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- fonts style -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Dosis:500|Poppins:400,600,700&display=swap" rel="stylesheet"> --> -->
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
 </head>
 
 <body>
-
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/IMG_20210403_130016_410.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Gabi Ghiur</a></h1>
-        <div class="social-links mt-3 text-center">
-        
-          <a href="https://github.com/gabighiur" class="github"><i class="bx bxl-github"></i></a>
-          <a href="https://www.instagram.com/gabi.ghiur/" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://dribbble.com/gabighiur" class="dribbble"><i class="bx bxl-dribbble"></i></a>
-          <a href="https://www.linkedin.com/in/gabi-ghiur-7a0a51205/?originalSubdomain=ro" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
-
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-        
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-          <li><a href="https://github.com/gabighiur?tab=repositories" class="nav-link scroolto"><i class="bx bxl-github"></i><span>School Project</span></a></li>
-        </ul>
-      </nav>
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Tudor Gabriel Ghiur</h1>
-      <p>I'm <span class="typed" data-typed-items="Graphic Designer, Junior Java Developer, Video Editor"></span></p>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section ">
       <div class="container">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p>I'm an IT enthusiast, studied Java Development at Link Academy. I am very communicative, easily adaptive and wiling to learn and grow in a Software Development company. At the moment, i am actively looking for internships or entry-level roles to help me get the start in my IT career. </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/IMG_20210403_130016_410.jpg" class="img-fluid" alt="">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              <img src="images/logo-icon.png" style="width: 7%; height: 20%;">
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+          </button>
+          <div class="collapse navbar-collapse ml-auto  " id="navbarSupportedContent">
+            <div class="myicons">
+            <a href="https://www.instagram.com/dartgoblin.nft/"><img class="instagram"src="images/logo-instagram-png-2429.png" style="width: 5%; margin: 25px; align-items: center;"></a>
+            <a href="https://discord.gg/CyZnPWYC8h"><img class="discord"src="images/discord-logo-png-7622.png" style="width: 7%;"></a>
+            
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Designer &amp; Junior Web Developer.</h3>
-            <p class="fst-italic">
-        
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>31 Oct 1997</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>0765020929</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bucharest, RO</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>E-mail:</strong> <span>gabi.ghiur@yahoo.com</span></li>
-                </ul>
+          
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+
+    <!-- slider section -->
+    <section class=" slider_section position-relative">
+      <div class="box">
+        <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>
+                        Welcome To Dart Goblin Society!
+                      </h1>
+                      <p class="col-lg-11 px-0">
+                        Dart Goblins are here, living on the Ethereum Blockchain, a High Quality collection of <b>111</b> unique NFT’s that will be minted over time. The base price is <b>0.020 ETH</b> for fair trade. Join the society today, what Goblin will you be?
+                      </p>
+                      <a href="https://opensea.io/collection/dartgoblin">
+                        Buy  On  OpenSea
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="images/DartGoblinLogoPNG2.png" alt="">
+                    </div>
+           
               </div>
             </div>
-            <p>
-            </p>
           </div>
+  
         </div>
-
       </div>
     </section>
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container">
+    <p class="col-lg-11 px-0" style="left: 600px; font-family: Montserrat; ">
+      We are currently running <b>Phase 1</b>
+    </p>
+    <!-- end slider section -->
+  </div>
 
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p></p>
-        </div>
+  <!-- book section -->
 
-        <div class="row skills-content">
+<img src="images/2.jpg" style="height: 70%; width: 70%; padding: 45px 25px 40px 25px;
+  margin: 10px auto 0 auto;
+  border-radius: 5px; display: table-cell; ">
 
-          <div class="col-lg-6" data-aos="fade-up">
 
-            <div class="progress">
-              <span class="skill">Java <i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+  <!-- end book section -->
 
-            <div class="progress">
-              <span class="skill">Spring <i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
 
-            <div class="progress">
-              <span class="skill">Hibernate <i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+  <!-- app section -->
 
-            <div class="progress">
-              <span class="skill">HTML & CSS <i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">Adobe Illustrator <i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Adobe Photoshop <i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Adobe After Effects <i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Adobe Premiere Pro <i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Resume</h2>
-          <a href="assets/img/gabighiurCV.pdf" type="download"><p>Download CV</p></a>
-        </div>
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Link Academy Romania &amp; Java Development</h4>
-              <h5>2020 - 2021</h5>
-              <ul>
-                <li>Java</li>
-                <li>Spring</li>
-                <li>Hibernate</li>
-                <li>MySql</li>
-                <li>HTML, CSS, JavaScript</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Pixellab &amp; Graphic Design</h4>
-              <h5>2019 - 2020</h5>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Freelance Graphic Design & Motion Graphics</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Tasked to make graphics for offline
-                layouts like: </em></p>
-              <ul>
-                <li>Posters designs & book covers</li>
-                <li>Logo & Stationary design </li>
-               </ul>
-               <p><em>And also motion graphics like: </em></p>
-               <ul>
-                 <li>Logo Animation</li>
-                 <li>Animated covers</li>
-                 <li>Video Editing</li>
-                 <li>Visual Effets</li>
-               </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2> Design Portfolio</h2>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/gif.gif" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/gif.gif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Goku"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Poster.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Poster.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Poster"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/MiruLogo.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/MiruLogo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="LineArt1"><i class="bx bx-plus"></i></a>
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Swan.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Swan.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="LineArt2"><i class="bx bx-plus"></i></a>
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Logo.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Logo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="BarberShop Logo"><i class="bx bx-plus"></i></a>
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/HatzLetterHead.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/HatzLogo3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Hatz contest for Dorian Popa"><i class="bx bx-plus"></i></a>
-               
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Produce-Delivery-LA.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Produce-Delivery-LA.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Logo"><i class="bx bx-plus"></i></a>
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Strecker-Farm.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Strecker-Farm.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Logo"><i class="bx bx-plus"></i></a>
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Pyramid.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Pyramid.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Logo"><i class="bx bx-plus"></i></a>
-                
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-           <div class="col-lg-5 d-flex align-items-stretch"> 
-            <div class="info">
-              <!-- <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div> --> 
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>gabi.ghiur@yahoo.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>0765020929</p>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <section class="app_section layout_padding">
     <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <img src="images/bulb.png" style="width: 20%;    position: absolute;
+              left: 70px;
+              top: -48px;" alt="">
+              <h2>
+               Hint 
+              </h2>
+            </div>
+            <p style="font-family: Montserrat;">
+              
+Each DartGoblin comes with special properties and levels known as <b>Star Levels</b>
+            <br>
+            DartGoblin takes on different traits of our popular characters from different Universes, but they are still pretty bored on Earth, so they plan to establish a society and move on <b>to the moon</b> &#128640.
+            <br>
+         Be part of <b>Goblins Society</b> and <a href="https://discord.gg/CyZnPWYC8h">Join us on Discord</a>
+    
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="images/SuflaciMov.png" alt="">
+          </div>
+        </div>
       </div>
     </div>
-  </footer><!-- End  Footer -->
+   
+  </button>
+  </section>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- end app section -->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
 
 </body>
 
