@@ -256,12 +256,12 @@ a:focus {
 .slider_section .carousel-control-next {
   width: 50px;
   height: 50px;
-  background-color: #ffffff;
+  background-color: #012A3A;
   opacity: 1;
   top: 50%;
   border-radius: 5px;
   font-size: 28px;
-  color: #1b1f71;
+  color: #FFF6CE;
 }
 
 .slider_section .carousel-control-prev:hover,
