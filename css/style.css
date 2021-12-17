@@ -1,15 +1,8 @@
 body {
-  font-family: "Gotham";
-  color: #012A3A;
-  background-color: #012A3A;
+  font-family: "Poppins", sans-serif;
+  color: #040000;
+  background-color: #ffffff;
 }
-.myicons {
-  align-items: center;
-  position: absolute;
-    left: 475px;
-}
-.instagram .discord { transition: all .2s ease-in-out; }
-.myicons :hover { transform: scale(1.1); }
 
 .layout_padding {
   padding: 90px 0;
@@ -67,8 +60,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color:#FFF6CE;
-  
+  background-color: #FFF6CE;
 }
 
 .sub_page .hero_area {
@@ -86,7 +78,7 @@ body {
 .navbar-nav .nav-item .nav-link {
   padding: 10px 20px;
   text-align: center;
-  color: #012A3A;
+  color: #ffffff;
   position: relative;
   text-transform: uppercase;
 }
@@ -173,7 +165,7 @@ a:focus {
 }
 
 .navbar-brand span {
-  color: #012A3A;
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 24px;
   margin: 0;
@@ -236,8 +228,8 @@ a:focus {
 }
 
 .slider_section .detail-box p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
 }
 
 .slider_section .detail-box a {
@@ -253,11 +245,11 @@ a:focus {
 
 .slider_section .detail-box a:hover {
   background-color: transparent;
-  color: #012A3A;
+  color: #ff7070;
 }
 
 .slider_section .img-box img {
-  width: 115%;
+  width: 100%;
 }
 
 .slider_section .carousel-control-prev,
@@ -287,7 +279,7 @@ a:focus {
 
 /* end slider section */
 .book_section .book_form {
-  background-image: url("/elaxi-html/images/Phase1.jpg");
+  background-color: #ffffff;
   padding: 45px 25px 40px 25px;
   margin: -90px auto 0 auto;
   border-radius: 5px;
@@ -357,16 +349,16 @@ a:focus {
 .book_section .book_form .btn-box button {
   display: inline-block;
   padding: 8px 65px;
-  background-color: #012A3A;
-  border: 1px solid #012A3A;
-  color: #FFF6CE;
+  background-color: #ff7070;
+  border: 1px solid #ff7070;
+  color: #ffffff;
   border-radius: 0;
   margin-top: 15px;
 }
 
 .book_section .book_form .btn-box button:hover {
   background-color: transparent;
-  color: #012A3A;
+  color: #ff7070;
 }
 
 .about_section .row {
@@ -449,7 +441,7 @@ a:focus {
 }
 
 .app_section {
-  background-color: #BBFFAD;
+  background-color: #1b1f71;
 }
 
 .app_section .row {
@@ -459,11 +451,11 @@ a:focus {
 }
 
 .app_section .detail-box {
-  color: #17404A;
+  color: #ffffff;
 }
 
 .app_section .detail-box .heading_container h2 {
-  color: #17404A;
+  color: #ffffff;
 }
 
 .app_section .detail-box .btn-box {
@@ -596,15 +588,15 @@ a:focus {
 .blog_section .box .detail-box a {
   display: inline-block;
   padding: 7px 30px;
-  background-color: #012A3A;
-  border: 1px solid #012A3A;
+  background-color: #ff7070;
+  border: 1px solid #ff7070;
   color: #ffffff;
   border-radius: 0;
 }
 
 .blog_section .box .detail-box a:hover {
   background-color: transparent;
-  color: #012A3A;
+  color: #ff7070;
 }
 
 .info_section {
@@ -652,7 +644,7 @@ a:focus {
 }
 
 .info_section .contact_nav a:hover {
-  color: #012A3A;
+  color: #ff7070;
 }
 
 .info_section h4 {
@@ -691,8 +683,8 @@ a:focus {
 }
 
 .info_section .social_box a:hover {
-  color: #012A3A;
-  border-color: #012A3A;
+  color: #ff7070;
+  border-color: #ff7070;
 }
 
 .info_section .info_form input {
@@ -709,15 +701,15 @@ a:focus {
 .info_section .info_form button {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #012A3A;
-  border: 1px solid #012A3A;
+  background-color: #ff7070;
+  border: 1px solid #ff7070;
   color: #ffffff;
   border-radius: 0px;
 }
 
 .info_section .info_form button:hover {
   background-color: transparent;
-  color: #012A3A;
+  color: #ff7070;
 }
 
 /* footer section*/
