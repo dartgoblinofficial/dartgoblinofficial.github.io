@@ -12,6 +12,9 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/logo-icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <title>DartGoblin</title>
 
@@ -29,7 +32,78 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.single-image-left:nth-child(1){
+    animation-name: safedown ;
+    animation-duration: 1s;
+}
+
+.single-image-right:nth-child(1){
+    animation-name: safeup;
+    animation-duration: 1s;
+}
+
+@keyframes safedown {
+    from{
+        transform: translateY(-100%);
+        opacity: 0.5;
+    } to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes safeup {
+    from{
+        transform: translateY(100%);
+        opacity: 0.5;
+    } to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.main{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.container-right, .container-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow-next, .arrow-back{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+
+
+
+
+
+
+
+</style>
 <body>
   <div class="hero_area">
     <!-- header section strats -->
@@ -38,7 +112,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="index.html">
             <span>
-              <img src="images/logo-icon.png" style="width: 10%;">
+              <img src="images/logo-icon.png" style="width: 15%;">
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,9 +145,10 @@
       </div>
     </header>
     <!-- end header section -->
-
+    
 
     <!-- slider section -->
+   
     <section class=" slider_section position-relative">
       <div class="box">
         <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
@@ -85,106 +160,250 @@
                   <div class="col-md-6">
                     <div class="detail-box">
                       <h1>
-                        WELCOME TO DART GOBLIN SOCIETY!
+                        WELCOME TO DART GOBLIN SOCIETY!<br>
                       </h1>
                       <p class="col-lg-11 px-0">
                         Dart Goblins are here, living on the Ethereum Blockchain, a High Quality collection of unique NFT’s
                         that will be minted over time.
                         <br>
                         <br>
-                        We are currently running <b>Season 1</b> where <b>111 Goblins</b> will be dropped. DartGoblin will be hosting a <b>Community Game</b> , a game that is supposed to bring people closer and collaborate with each other in order to unlock a new type of DartGoblin.
 
-                    
-                         The base price is <b>0.020 ETH</b> for fair trade. Join the society today and be part of the Game, what Goblin will you be?
+
+Each DartGoblin comes with special properties and levels. The actual season will be hosting 111 Goblins with level 1, 2 and 3. 
+
+DartGoblin takes on different traits of our popular characters from different Universes, but they are still pretty bored on Earth,
+so they plan to establish a society and move on to the moon 🚀
                       </p>
-                      <div class="user_option "> <a href="https://opensea.io/collection/dartgoblin">
-                        Buy
-                      </a>
-                      </div>
+                     
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="img-box">
-                      <img src="images/DartGoblinLogoPNG2.png" alt="">
+                      <img src="images/0.png" alt="">
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item ">
+            <div class="carousel-item">
               <div class="container">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="detail-box">
                       <h1>
-                        Road Map 
+                        WELCOME TO DART GOBLIN SOCIETY!<br>
                       </h1>
                       <p class="col-lg-11 px-0">
-                        We are currently running <b>Phase 1</b>
+                        Dart Goblins are here, living on the Ethereum Blockchain, a High Quality collection of unique NFT’s
+                        that will be minted over time.
+                        <br>
+                        <br>
+
+
+Each DartGoblin comes with special properties and levels. The actual season will be hosting 111 Goblins with level 1, 2 and 3. 
+
+DartGoblin takes on different traits of our popular characters from different Universes, but they are still pretty bored on Earth,
+so they plan to establish a society and move on to the moon 🚀
                       </p>
-                  
+                     
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="img-box">
-                      <img src="images/SEASON1.jpg" style="width: 100%;">
-                      
+                      <img src="images/1.png" alt="">
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item ">
+            <div class="carousel-item">
               <div class="container">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="detail-box">
                       <h1>
-                        Road Map 
+                        WELCOME TO DART GOBLIN SOCIETY!<br>
                       </h1>
                       <p class="col-lg-11 px-0">
-                    
+                        Dart Goblins are here, living on the Ethereum Blockchain, a High Quality collection of unique NFT’s
+                        that will be minted over time.
+                        <br>
+                        <br>
+
+
+Each DartGoblin comes with special properties and levels. The actual season will be hosting 111 Goblins with level 1, 2 and 3. 
+
+DartGoblin takes on different traits of our popular characters from different Universes, but they are still pretty bored on Earth,
+so they plan to establish a society and move on to the moon 🚀
                       </p>
-                  
+                     
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="img-box">
-                      <img src="images/SEASON2.jpg" style="width: 100%;">
-                      
+                      <img src="images/2.png" alt="">
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item ">
+            <div class="carousel-item">
               <div class="container">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="detail-box">
                       <h1>
-                        Hint 💡
+                        WELCOME TO DART GOBLIN SOCIETY!<br>
                       </h1>
                       <p class="col-lg-11 px-0">
-                        Each DartGoblin comes with special properties and <b>Levels</b><br>
-DartGoblin takes on different traits of our popular characters from different Universes, but they are still pretty bored on Earth,<br>
- so they plan to establish a society and move on <b>to the moon</b> 🚀.
-Be part of Goblins Society and
+                        Dart Goblins are here, living on the Ethereum Blockchain, a High Quality collection of unique NFT’s
+                        that will be minted over time.
+                        <br>
+                        <br>
+
+
+Each DartGoblin comes with special properties and levels. The actual season will be hosting 111 Goblins with level 1, 2 and 3. 
+
+DartGoblin takes on different traits of our popular characters from different Universes, but they are still pretty bored on Earth,
+so they plan to establish a society and move on to the moon 🚀
                       </p>
-                      <div class="user_option"><a href="https://discord.gg/sufVtNseat">
-                        Join Us on Discord
-                      </a>
-                    </div>
+                     
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="img-box">
-                      <img src="images/Levels.jpg" alt="">
+                      <img src="images/3.png" alt="">
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>
+                        WELCOME TO DART GOBLIN SOCIETY!<br>
+                      </h1>
+                      <p class="col-lg-11 px-0">
+                        Dart Goblins are here, living on the Ethereum Blockchain, a High Quality collection of unique NFT’s
+                        that will be minted over time.
+                        <br>
+                        <br>
+
+
+Each DartGoblin comes with special properties and levels. The actual season will be hosting 111 Goblins with level 1, 2 and 3. 
+
+DartGoblin takes on different traits of our popular characters from different Universes, but they are still pretty bored on Earth,
+so they plan to establish a society and move on to the moon 🚀
+                      </p>
+                     
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="images/4.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>
+                        WELCOME TO DART GOBLIN SOCIETY!<br>
+                      </h1>
+                      <p class="col-lg-11 px-0">
+                        Dart Goblins are here, living on the Ethereum Blockchain, a High Quality collection of unique NFT’s
+                        that will be minted over time.
+                        <br>
+                        <br>
+
+
+Each DartGoblin comes with special properties and levels. The actual season will be hosting 111 Goblins with level 1, 2 and 3. 
+
+DartGoblin takes on different traits of our popular characters from different Universes, but they are still pretty bored on Earth,
+so they plan to establish a society and move on to the moon 🚀
+                      </p>
+                     
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="images/5.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>
+                        WELCOME TO DART GOBLIN SOCIETY!<br>
+                      </h1>
+                      <p class="col-lg-11 px-0">
+                        Dart Goblins are here, living on the Ethereum Blockchain, a High Quality collection of unique NFT’s
+                        that will be minted over time.
+                        <br>
+                        <br>
+
+
+Each DartGoblin comes with special properties and levels. The actual season will be hosting 111 Goblins with level 1, 2 and 3. 
+
+DartGoblin takes on different traits of our popular characters from different Universes, but they are still pretty bored on Earth,
+so they plan to establish a society and move on to the moon 🚀
+                      </p>
+                     
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="images/6.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>
+                        WELCOME TO DART GOBLIN SOCIETY!<br>
+                      </h1>
+                      <p class="col-lg-11 px-0">
+                        Dart Goblins are here, living on the Ethereum Blockchain, a High Quality collection of unique NFT’s
+                        that will be minted over time.
+                        <br>
+                        <br>
+
+
+Each DartGoblin comes with special properties and levels. The actual season will be hosting 111 Goblins with level 1, 2 and 3. 
+
+DartGoblin takes on different traits of our popular characters from different Universes, but they are still pretty bored on Earth,
+so they plan to establish a society and move on to the moon 🚀
+                      </p>
+                     
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="images/out.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+        
           </div>
           <div class="container">
             <div class="carousel-btn-box">
@@ -202,175 +421,53 @@ Be part of Goblins Society and
       </div>
     </section>
     <!-- end slider section -->
-  </div>
-
-
-
-  <section class="blog_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Recently Minted
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/DartGoblin22.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h6 class="blog_date">
-                
-              </h6>
-              <h5>
-                
-              </h5>
-              <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81729267966424438844653064392424573161660818329847384094751148104881358766081">
-                View on OpenSea
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/DartGoblin21.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h6 class="blog_date">
-                
-              </h6>
-              <h5>
-                
-              </h5>
-              <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81729267966424438844653064392424573161660818329847384094751148103781847138305">
-                View on OpenSea
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/DartGoblin20.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h6 class="blog_date">
-                
-              </h6>
-              <h5>
-                
-              </h5>
-              <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81729267966424438844653064392424573161660818329847384094751148102682335510529">
-                View on OpenSea
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/DartGoblin19jpg.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h6 class="blog_date">
-                
-              </h6>
-              <h5>
-                
-              </h5>
-              <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81729267966424438844653064392424573161660818329847384094751148101582823882753">
-                View on OpenSea
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/DartGoblin18.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h6 class="blog_date">
-                
-              </h6>
-              <h5>
-            
-              </h5>
-              <p>
-              </p>
-              <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81729267966424438844653064392424573161660818329847384094751148100483312254977">
-                View on OpenSea
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/DartGoblin7.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h6 class="blog_date">
-                
-              </h6>
-              <h5>
-            
-              </h5>
-              <p>
-              </p>
-              <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81729267966424438844653064392424573161660818329847384094751148083990637838337">
-                View on OpenSea
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/DartGoblin9.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h6 class="blog_date">
-                
-              </h6>
-              <h5>
-            
-              </h5>
-              <p>
-              </p>
-              <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81729267966424438844653064392424573161660818329847384094751148090587707604993">
-                View on OpenSea
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/DartGoblin4.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h6 class="blog_date">
-                
-              </h6>
-              <h5>
-            
-              </h5>
-              <p>
-              </p>
-              <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81729267966424438844653064392424573161660818329847384094751148080692102955009">
-                View on OpenSea
-              </a>
-            </div>
-          </div>
-        </div>
-      
-        </div>
-      </div>
+    <div class="heading_container">
+      <h2>
+        Meet some goblins
+      </h2>
     </div>
-  </section>
+    <section class=" slider_section position-relative">
+    
+      <div class="main">
+        <div class="horizontal">
+          <div class="arrow-back">
+            <a href="#" id="back-image"><ion-icon name="arrow-back-outline"></ion-icon></a>
+          </div>
+          <div id="left-side" class="container-left">
+            <img class="single-image-left" src="images/DartGoblin13.jpg" alt="" width="500px" height="500px">
+            
+            <img class="single-image-left" src="images/DartGoblin14.jpg" alt="" width="500px" height="500px">
+            
+            <img class="single-image-left" src="images/DartGoblin16.jpg" alt="" width="500px" height="500px">
+            
+            <img class="single-image-left" src="images/DartGoblin17.jpg" alt="" width="500px" height="500px">
+            <img class="single-image-left" src="images/DartGoblin23 (2).jpg" alt="" width="500px" height="500px">
+            <img class="single-image-left" src="images/DartGoblin23 (3).jpg" alt="" width="500px" height="500px">
+            <img class="single-image-left" src="images/DartGoblin23 (4).jpg" alt="" width="500px" height="500px">
+            
+          </div>
+          <div id="right-side" class="container-right">
+            <img class="single-image-left" src="images/DartGoblin18.jpg" alt="" width="500px" height="500px">
+            <img class="single-image-left" src="images/DartGoblin19jpg.jpg" alt="" width="500px" height="500px">
+            <img class="single-image-left" src="images/DartGoblin20.jpg" alt="" width="500px" height="500px">
+            <img class="single-image-left" src="images/DartGoblin21.jpg" alt="" width="500px" height="500px">
+            <img class="single-image-left" src="images/DartGoblin22.jpg" alt="" width="500px" height="500px">
+            <img class="single-image-left" src="images/DartGoblin23 (1).jpg" alt="" width="500px" height="500px">
+            
+          </div>
+          <div class="arrow-next">
+            <a href="#" id="next-image"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+          </div>
+        </div>      
+      </div>
+      
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </section>
+
+
+
+  
 
   
 
@@ -403,6 +500,7 @@ Be part of Goblins Society and
   </footer>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
