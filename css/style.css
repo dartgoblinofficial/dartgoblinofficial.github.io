@@ -183,9 +183,25 @@ a:focus {
           align-items: center;
   text-transform: uppercase;
 }
+.falafel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  padding: auto;
+}
 
 .user_option a {
   background-color: #02AAEA;
+  padding: 7px 30px;
+  border-radius: 5px;
+  color: #FFF6CE;
+}
+.falafel a {
+  background-color: #012A3A;
   padding: 7px 30px;
   border-radius: 5px;
   color: #FFF6CE;
